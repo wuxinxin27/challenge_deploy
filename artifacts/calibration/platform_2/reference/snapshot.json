@@ -1,0 +1,5 @@
+{
+  "source": "artifacts/calibration/platform_2/fixed_ref_20261107_221449/clean_20261107_221452_1794060892513140377",
+  "description": "Local fixed reference: camera frames and stationary robot feedback captured in one clean capture, not hardware synchronized.",
+  "target": "reference.json (inherited platform_1 target; sample.json contains actual platform_2 feedback)"
+}

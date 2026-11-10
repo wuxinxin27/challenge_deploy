@@ -1,0 +1,36 @@
+{
+  "source": "artifacts/calibration/platform_1/reference/sample.json",
+  "source_sha256": "74ab07abc4837735b38f9daed5790995751e9673f10da4d2a79b80a2acf2ad8f",
+  "source_kind": "platform_1 measured feedback; not a platform_2 measurement",
+  "source_warning": "Feedback captured after image, not synchronized",
+  "joint_angles": {
+    "left": [
+      -0.274324344,
+      1.8546460800000002,
+      -0.919682568,
+      -0.6724313120000001,
+      0.655144308,
+      0.393484308
+    ],
+    "right": [
+      0.32580158800000003,
+      1.792527996,
+      -0.908099752,
+      0.751993396,
+      0.624024212,
+      -0.45868998000000005
+    ]
+  },
+  "state_names": [
+    [
+      "left_gripper",
+      "right_gripper"
+    ]
+  ],
+  "observation_state_raw": [
+    0.0604,
+    0.0475
+  ],
+  "gripper_unit": "meters",
+  "raw_to_meters": 1.0
+}

@@ -22,6 +22,18 @@ __pycache__/
 !/artifacts/calibration/platform_1/coarse_reference/
 !/artifacts/calibration/platform_1/board/
 !/artifacts/calibration/platform_1/hardware.yaml
+!/artifacts/calibration/platform_2/
+/artifacts/calibration/platform_2/*
+!/artifacts/calibration/platform_2/README.md
+!/artifacts/calibration/platform_2/reference/
+!/artifacts/calibration/platform_2/samples/
+!/artifacts/calibration/platform_2/intrinsics/
+!/artifacts/calibration/platform_2/results/
+!/artifacts/calibration/platform_2/board/
+!/artifacts/calibration/platform_2/hardware.yaml
+!/artifacts/calibration/platform_2/requirements.txt
+!/artifacts/calibration/platform_2/solve.py
+!/artifacts/calibration/platform_2/manifest.json
 
 # Session-specific investigations; the portable solver is in platform_1.
 /calibration/diagnose_high_*.py

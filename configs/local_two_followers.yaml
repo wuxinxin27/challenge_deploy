@@ -1,0 +1,34 @@
+# Local device mapping verified by adapter unplug tests and camera images.
+robot:
+  left:
+    can_name: can0
+  right:
+    can_name: can1
+  master_left: null
+  master_right: null
+
+cameras:
+  enabled: true
+  width: 640
+  height: 480
+  fps: 30
+  warmup_frames: 30
+  serials:
+    cam_high: "339222071893"
+    cam_left_wrist: "419622072371"
+    cam_right_wrist: "419522070862"
+
+hardware_inventory:
+  can0: "004A00244648571220363032"
+  can1: "004E00324648571220363032"
+  camera_serials: ["419622072371", "419522070862", "339222071893"]
+
+calibration:
+  reference: artifacts/calibration/platform_1/coarse_reference
+  overlay_reference: artifacts/calibration/platform_1/coarse_reference
+  max_joint_speed: 0.30
+  speed_percent: 75
+  countdown_s: 1
+  set_grippers: true
+  raw_to_meters: 0.1
+  open_overlay: true

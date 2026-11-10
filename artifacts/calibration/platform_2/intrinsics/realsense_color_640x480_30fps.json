@@ -1,0 +1,102 @@
+{
+  "source": "reference/sample.json",
+  "description": "Color stream intrinsics recorded during local reference capture; no new firmware query.",
+  "cameras": {
+    "cam_high": {
+      "serial": "339222071893",
+      "width": 640,
+      "height": 480,
+      "camera_matrix": [
+        [
+          606.192138671875,
+          0.0,
+          323.78448486328125
+        ],
+        [
+          0.0,
+          605.811279296875,
+          250.43460083007812
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "distortion": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "distortion_model": "distortion.inverse_brown_conrady",
+      "timestamp": 1794060892.396404,
+      "device_timestamp_ms": 1794060892362.63
+    },
+    "cam_left_wrist": {
+      "serial": "419622072371",
+      "width": 640,
+      "height": 480,
+      "camera_matrix": [
+        [
+          607.2387084960938,
+          0.0,
+          326.9586486816406
+        ],
+        [
+          0.0,
+          607.2044067382812,
+          243.83236694335938
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "distortion": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "distortion_model": "distortion.inverse_brown_conrady",
+      "timestamp": 1794060892.4297292,
+      "device_timestamp_ms": 1794060892397.0508
+    },
+    "cam_right_wrist": {
+      "serial": "419522070862",
+      "width": 640,
+      "height": 480,
+      "camera_matrix": [
+        [
+          607.283447265625,
+          0.0,
+          322.3223876953125
+        ],
+        [
+          0.0,
+          607.4154052734375,
+          256.79730224609375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "distortion": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "distortion_model": "distortion.inverse_brown_conrady",
+      "timestamp": 1794060892.454624,
+      "device_timestamp_ms": 1794060892422.032
+    }
+  }
+}
